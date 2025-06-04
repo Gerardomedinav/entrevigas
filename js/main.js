@@ -175,7 +175,7 @@ function loadGoogleMaps() {
 
   if (navigator.onLine) {
     const script = document.createElement("script");
-   script.src = "https://maps.googleapis.com/maps/api/js?key=AIzaSyADQ_a0eH87DL2KhYW9BgZTma-LkNEMIXo&callback=initMap&loading=async";
+   script.src = "https://maps.googleapis.com/maps/api/js?key=_a0eH87DL2KhYW9BgZTma-LkNEMIXo&callback=initMap&loading=async";
     script.async = true;
     script.defer = true;
     document.head.appendChild(script);
