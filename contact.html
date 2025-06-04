@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>ENTREVIGAS SAS - Contactos</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
+
+    <!-- Favicons -->
+    <link href="img/favicon.ico" rel="icon" />
+    <link href="img/apple-touch-icon.png" rel="apple-touch-icon" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap CSS File -->
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Libraries CSS Files -->
+    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+
+    <!-- Main Stylesheet File -->
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!--/ Nav Star /-->
+    <nav class="navbar navbar-default navbar-trans navbar-expand-lg fixed-top">
+      <div class="container">
+        <a
+          class="navbar-brand text-brand d-flex align-items-center"
+          href="index.html"
+        >
+          <img src="img/ENTREVIGAS_Logo.png" alt="Logo" class="logo mr-2" />
+          <span class="ml-2"
+            >ENTREVIGAS<span class="color-b"> S.A.S.</span></span
+          >
+        </a>
+        <button
+          class="navbar-toggler collapsed"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarDefault"
+          aria-controls="navbarDefault"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <div
+          class="navbar-collapse collapse justify-content-center"
+          id="navbarDefault"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">Nosotros</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="contact.html">Contactos</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--/ Nav End /-->
+
+    <!--/ Intro Single star /-->
+    <section class="intro-single">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-lg-8">
+            <div class="title-single-box">
+              <h1 class="title-single">Contactanos</h1>
+              <h6>
+                <span class="color-text-b">¿Querés invertir en tu futuro? </span
+                ><br />
+              </h6>
+              <p>
+                Solicitá asesoramiento personalizado. Nuestro equipo de expertos
+                está listo para brindarte la orientación que necesitás para
+                alcanzar tus objetivos financieros. También podés visitarnos en
+                nuestra oficina ubicada en Ayacucho 175, Formosa Capital.
+                Estaremos encantados de atenderte personalmente y responder a
+                todas tus preguntas.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-12 col-lg-4">
+            <nav
+              aria-label="breadcrumb"
+              class="breadcrumb-box d-flex justify-content-lg-end"
+            >
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                  <a href="index.html">Inicio</a>
+                </li>
+                <li class="breadcrumb-item active" aria-current="page">
+                  Contactos
+                </li>
+              </ol>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--/ Intro Single End /-->
+
+    <!--/ Contact Star /-->
+    <section class="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="contact-map box">
+              <!-- aqui va el mapa-->
+              <h2>
+                Estamos Aquí
+                <i class="fas fa-map-marker-alt" style="color: red"></i>
+              </h2>
+              <p>
+                Localizanos fácilmente en el mapa a continuación. Nuestra
+                oficina está ubicada en
+                <strong>Ayacucho 175, Formosa Capital, Argentina.</strong>
+              </p>
+
+              <!-- Mapa de Google -->
+              <div id="map" style="width: 100%; height: 400px"></div>
+            </div>
+          </div>
+          <div class="col-sm-12 section-t8">
+            <div class="row">
+              <!-- Formulario de contacto -->
+              <div class="col-md-7">
+                <form
+                  class="form-a contactForm"
+                  action="contactform/sendmail.php"
+                  method="post"
+                  role="form"
+                >
+                  <h3 class="title-a">Dejanos tu mensaje</h3>
+                  <div id="sendmessage">
+                    ¡Tu mensaje ha sido enviado. Gracias!
+                  </div>
+                  <div id="errormessage"></div>
+                  <div class="row">
+                    <div class="col-md-6 mb-3">
+                      <div class="form-group">
+                        <input
+                          type="text"
+                          name="name"
+                          class="form-control form-control-lg form-control-a"
+                          placeholder="Tu nombre"
+                          data-rule="minlen:4"
+                          data-msg="Por favor, ingrese al menos 4 caracteres"
+                        />
+                        <div class="validation"></div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                      <div class="form-group">
+                        <input
+                          name="email"
+                          type="email"
+                          class="form-control form-control-lg form-control-a"
+                          placeholder="Tu correo electrónico"
+                          data-rule="email"
+                          data-msg="Por favor, ingrese un correo válido"
+                        />
+                        <div class="validation"></div>
+                      </div>
+                    </div>
+                    <div class="col-md-12 mb-3">
+                      <div class="form-group">
+                        <input
+                          type="text"
+                          name="subject"
+                          class="form-control form-control-lg form-control-a"
+                          placeholder="Asunto"
+                          data-rule="minlen:4"
+                          data-msg="Por favor, ingrese al menos 8 caracteres para el asunto"
+                        />
+                        <div class="validation"></div>
+                      </div>
+                    </div>
+                    <div class="col-md-12 mb-3">
+                      <div class="form-group">
+                        <textarea
+                          name="message"
+                          class="form-control"
+                          cols="45"
+                          rows="8"
+                          data-rule="required"
+                          data-msg="Por favor, escriba un mensaje"
+                          placeholder="Mensaje"
+                        ></textarea>
+                        <div class="validation"></div>
+                      </div>
+                    </div>
+                    <div class="col-md-12">
+                      <button type="submit" class="btn btn-a">
+                        Enviar mensaje
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+
+              <!-- Información de contacto -->
+              <div class="col-md-5 section-md-t3">
+                <!-- Correo y teléfono -->
+                <div class="icon-box section-b2">
+                  <div class="icon-box-icon">
+                    <span class="ion-ios-paper-plane"></span>
+                  </div>
+                  <div class="icon-box-content table-cell">
+                    <div class="icon-box-title">
+                      <h4 class="icon-title">
+                        <img
+                          src="img/favicon.ico"
+                          alt="icono"
+                          style="width: 50px; margin-right: 20px"
+                        />Contacto directo
+                      </h4>
+                    </div>
+                    <div class="icon-box-content">
+                      <p class="mb-1">
+                        Correo electrónico:
+                        <span class="color-a">empresa@example.com</span>
+                      </p>
+                      <p class="mb-1">
+                        Teléfono/WhatsApp:
+                        <span class="color-a">3705435988</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Dirección física -->
+                <div class="icon-box section-b2">
+                  <div class="icon-box-icon">
+                    <span class="ion-ios-pin"></span>
+                  </div>
+                  <div class="icon-box-content table-cell">
+                    <div class="icon-box-title">
+                      <h4 class="icon-title">Ubicación</h4>
+                    </div>
+                    <div class="icon-box-content">
+                      <p class="mb-1">
+                        Ayacucho 175, Formosa Capital,
+                        <br />
+                        Argentina
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Redes sociales -->
+                <div class="icon-box">
+                  <div class="icon-box-icon">
+                    <span class="ion-ios-redo"></span>
+                  </div>
+                  <div class="icon-box-content table-cell">
+                    <div class="icon-box-title">
+                      <h4 class="icon-title">Redes sociales</h4>
+                    </div>
+                    <div class="icon-box-content">
+                      <div class="socials-footer">
+                        <ul class="list-inline">
+                          <li class="list-inline-item">
+                            <a
+                              href="https://facebook.com/tuempresa"
+                              target="_blank"
+                              class="link-one"
+                            >
+                              <i class="fab fa-facebook" aria-hidden="true"></i>
+                            </a>
+                          </li>
+                          <li class="list-inline-item">
+                            <a
+                              href="https://instagram.com/tuempresa"
+                              target="_blank"
+                              class="link-one"
+                            >
+                              <i
+                                class="fab fa-instagram"
+                                aria-hidden="true"
+                              ></i>
+                            </a>
+                          </li>
+                          <li class="list-inline-item">
+                            <a
+                              href="https://wa.me/543705435988"
+                              target="_blank"
+                              class="link-one"
+                            >
+                              <i class="fab fa-whatsapp" aria-hidden="true"></i>
+                            </a>
+                          </li>
+                          <li class="list-inline-item">
+                            <a
+                              href="mailto:empresa@example.com"
+                              target="_blank"
+                              class="link-one"
+                            >
+                              <i class="fas fa-envelope" aria-hidden="true"></i>
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--/ Contact End /-->
+
+    <!--/ footer Star /-->
+    <section class="section-footer">
+      <div class="container">
+        <div class="row">
+          <!-- Columna de presentación -->
+          <div class="col-sm-12 col-md-4">
+            <div class="widget-a">
+              <div class="w-header-a">
+                <h3 class="w-title-a text-brand">ENTREVIGAS SAS</h3>
+              </div>
+              <div class="w-body-a">
+                <p class="w-text-a color-text-a">
+                  “Construimos futuro, gestionamos confianza”. Empresa formoseña
+                  líder en soluciones inmobiliarias y constructivas. Brindamos
+                  atención personalizada, transparencia y experiencia.
+                </p>
+              </div>
+              <div class="w-footer-a">
+                <ul class="list-unstyled">
+                  <li class="color-a">
+                    <span class="color-text-a">Teléfono / WhatsApp:</span>
+                    3705435988
+                  </li>
+                  <li class="color-a">
+                    <span class="color-text-a">Email:</span>
+                    contacto@entrevigas.com.ar
+                  </li>
+                  <li class="color-a">
+                    <span class="color-text-a">Dirección:</span> Ayacucho 175,
+                    Formosa Capital
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Columna de servicios -->
+          <div class="col-sm-12 col-md-4">
+            <div class="widget-a">
+              <div class="w-header-a">
+                <h3 class="w-title-a text-brand">Nuestros Servicios</h3>
+              </div>
+              <div class="w-body-a">
+                <ul class="list-unstyled">
+                  <li>✅ Venta de lotes financiados</li>
+                  <li>✅ Administración y alquileres</li>
+                  <li>✅ Construcción de viviendas</li>
+                  <li>✅ Venta de rodados</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Columna de contacto rápido / CTA -->
+          <div class="col-sm-12 col-md-4">
+            <div class="widget-a">
+              <div class="w-header-a">
+                <h3 class="w-title-a text-brand">Contáctanos</h3>
+              </div>
+              <div class="w-body-a">
+                <p class="w-text-a color-text-a">
+                  ¿Querés invertir en tu futuro? <br />
+                  <strong>Solicitá asesoramiento personalizado.</strong>
+                </p>
+                <div style="text-align: center; margin-top: 20px">
+                  <a
+                    href="contact.html"
+                    class="btn"
+                    style="
+                      background-color: #2e8b57;
+                      color: white;
+                      border: none;
+                      margin: 5px;
+                    "
+                  >
+                    <i class="fas fa-envelope-open-text"></i> Ir a Contacto
+                  </a>
+
+                  <a
+                    href="https://wa.me/5493705435988"
+                    class="btn"
+                    style="
+                      background-color: #25d366;
+                      color: white;
+                      border: none;
+                      margin: 5px;
+                    "
+                  >
+                    <i class="fab fa-whatsapp"></i> Contactar por WhatsApp
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <!-- Navegación inferior -->
+            <nav class="nav-footer">
+              <ul class="list-inline">
+                <li class="list-inline-item"><a href="#">Inicio</a></li>
+                <li class="list-inline-item">
+                  <a href="about.html">Nosotros</a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="contact.html">Contactos</a>
+                </li>
+              </ul>
+            </nav>
+
+            <!-- Redes sociales -->
+            <div class="socials-a">
+              <ul class="list-inline">
+                <li class="list-inline-item">
+                  <a href="https://facebook.com/entrevigas" target="_blank">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="https://instagram.com/entrevigas" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="mailto:contacto@entrevigas.com.ar">
+                    <i class="fas fa-envelope"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Derechos -->
+            <div class="copyright-footer">
+              <p class="copyright color-text-a">
+                &copy; Copyright <span class="color-a">ENTREVIGAS SAS</span>.
+                Todos los derechos reservados.
+              </p>
+            </div>
+
+            <!-- Créditos -->
+            <div class="credits">
+              Desarrollado por <a href="#">Gerardo Medina & Facundo Reina</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--/ Footer End /-->
+    <div class="floating-buttons-horizontal">
+      <a href="#" class="btn-float back-to-top">
+        <i class="fa fa-chevron-up"></i>
+      </a>
+      <a
+        href="https://wa.me/5493705435988"
+        class="btn-float whatsapp-float"
+        target="_blank"
+      >
+        <i class="fab fa-whatsapp"></i>
+      </a>
+    </div>
+    <div id="preloader"></div>
+
+    <!-- JavaScript Libraries -->
+    <script src="lib/jquery/jquery.min.js"></script>
+    <script src="lib/jquery/jquery-migrate.min.js"></script>
+    <script src="lib/popper/popper.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/scrollreveal/scrollreveal.min.js"></script>
+    <!-- Contact Form JavaScript File -->
+    <script src="contactform/contactform.js"></script>
+
+    <!-- Template Main Javascript File -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
