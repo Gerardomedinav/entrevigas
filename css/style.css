@@ -1526,10 +1526,7 @@ footer {
   padding: 30px 0;
 }
 
-footer .copyright-footer {
-  border-top: 1px solid #ddd;
-  padding-top: 20px;
-}
+
 
 footer .credits {
   font-size: 14px;
@@ -2211,11 +2208,9 @@ h1.intro-title {
   }
 }
 .copyright-footer {
-  text-align: center;
-  padding: 1rem 0;
+  text-align: center !important;
+  padding: 1rem 0 !important;
 }
 
-.copyright-footer .copyright {
-  margin: 0;
-}
+
 
