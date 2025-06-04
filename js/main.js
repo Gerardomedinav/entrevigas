@@ -175,11 +175,9 @@ function loadGoogleMaps() {
 
   if (navigator.onLine) {
     const script = document.createElement("script");
-<<<<<<< HEAD
+
     script.src = `https://maps.googleapis.com/maps/api/js?key=${window.GMAPS_API_KEY}&callback=initMap&loading=async`;
-=======
-   script.src = "https://maps.googleapis.com/maps/api/js?key=_a0eH87DL2KhYW9BgZTma-LkNEMIXo&callback=initMap&loading=async";
->>>>>>> afee17699d386a6c4ff2354615a8a392fcbb09a3
+
     script.async = true;
     script.defer = true;
     document.head.appendChild(script);
