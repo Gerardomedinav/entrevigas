@@ -144,6 +144,31 @@
 
               <!-- Mapa de Google -->
               <div id="map" style="width: 100%; height: 400px"></div>
+              <div class="text-center mt-3">
+                <div class="btn-group">
+                  <button
+                    type="button"
+                    class="btn btn-success dropdown-toggle"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    📍 Compartir ubicación
+                  </button>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#" id="open-maps"
+                      >🌍 Abrir en Google Maps</a
+                    >
+                    <a class="dropdown-item" href="#" id="copy-link"
+                      >📋 Copiar enlace</a
+                    >
+                    <a class="dropdown-item" href="#" id="share-whatsapp">
+                      <i class="fab fa-whatsapp text-success"></i> Compartir por
+                      WhatsApp
+                    </a>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
           <div class="col-sm-12 section-t8">
@@ -156,7 +181,14 @@
                   method="post"
                   role="form"
                 >
-                  <h3 class="title-a">Dejanos tu mensaje</h3>
+                  <div class="container">
+                    <div class="row justify-content-center">
+                      <div class="col-12 text-center">
+                        <h3 class="title-a mb-4">Dejanos tu mensaje</h3>
+                      </div>
+                    </div>
+                  </div>
+
                   <div id="sendmessage">
                     ¡Tu mensaje ha sido enviado. Gracias!
                   </div>
@@ -515,7 +547,16 @@
     <!-- Contact Form JavaScript File -->
     <script src="contactform/contactform.js"></script>
 
+    <!-- estilos de Leaflet -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    />
+
+    <!--  Leaflet.js -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <!-- Template Main Javascript File -->
+
     <script src="js/env.js"></script>
     <script src="js/main.js"></script>
   </body>
