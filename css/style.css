@@ -2207,10 +2207,24 @@ h1.intro-title {
     bottom: -25%;
   }
 }
-.copyright-footer {
+
+.copyright {
+  color: #555;
+  font-size: 0.95rem;
   text-align: center !important;
-  padding: 1rem 0 !important;
+  width: 100% !important;
 }
 
+.w-text-a {
+  text-align: center !important;
+  width: 100% !important;
+}
 
-
+.w-title-a {
+  text-align: center !important;
+  width: 100% !important;
+}
+.w-footer-a {
+  text-align: center !important;
+  margin: 0 auto !important;
+}
