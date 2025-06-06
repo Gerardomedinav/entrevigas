@@ -176,7 +176,6 @@
               <!-- Formulario de contacto -->
               <div class="col-md-7">
                 <form class="form-a contactForm" id="contactForm" role="form">
-                
                   <div class="container">
                     <div class="row justify-content-center">
                       <div class="col-12 text-center">
@@ -243,11 +242,18 @@
                         <div class="validation"></div>
                       </div>
                     </div>
-                     <div class="form-check mb-3 ml-3">
-                        <input type="checkbox" class="form-check-input" id="checkHuman" required>
-                        <label class="form-check-label" for="checkHuman">No soy un bot</label>
-                      </div>
-                      
+                    <div class="form-check mb-3 ml-3">
+                      <input
+                        type="checkbox"
+                        class="form-check-input"
+                        id="checkHuman"
+                        required
+                      />
+                      <label class="form-check-label" for="checkHuman"
+                        >No soy un bot</label
+                      >
+                    </div>
+
                     <div class="col-md-12">
                       <button type="submit" class="btn btn-a">
                         Enviar mensaje
@@ -264,23 +270,25 @@
                   <div class="icon-box-icon">
                     <span class="ion-ios-paper-plane"></span>
                   </div>
-                  <div class="icon-box-content table-cell">
-                    <div class="icon-box-title">
-                      <h4 class="icon-title">
-                        <img
-                          src="img/favicon.ico"
-                          alt="icono"
-                          style="width: 50px; margin-right: 20px"
-                        />Contacto directo
-                      </h4>
-                    </div>
-                    <div class="icon-box-content">
+                  <div
+                    class="icon-box-content d-flex align-items-center flex-wrap mb-4"
+                  >
+                    <img
+                      src="img/favicon.ico"
+                      alt="icono"
+                      class="me-3"
+                      style="width: 50px; height: 50px"
+                    />
+                    <div>
+                      <h4 class="icon-title mb-2">Contacto directo</h4>
                       <p class="mb-1">
-                        Correo electrónico:
-                        <span class="color-a">entrevigasconstructorainmobili@gmail.com</span>
+                        <strong>Correo electrónico:</strong><br />
+                        <span class="color-a"
+                          >entrevigasconstructorainmobili@gmail.com</span
+                        >
                       </p>
-                      <p class="mb-1">
-                        Teléfono/WhatsApp:
+                      <p class="mb-0">
+                        <strong>Teléfono / WhatsApp:</strong><br />
                         <span class="color-a">3705435988</span>
                       </p>
                     </div>

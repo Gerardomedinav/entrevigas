@@ -923,7 +923,7 @@ a:hover {
   transition-duration: 9s !important;
   color: #ffffff;
   font-weight: 700;
-  font-size: 2.8rem;
+  font-size: 2.2rem;
   text-transform: uppercase;
 }
 
@@ -2227,4 +2227,34 @@ h1.intro-title {
 .w-footer-a {
   text-align: center !important;
   margin: 0 auto !important;
+}
+.intro-content {
+  height: 100vh; /* ocupa toda la altura de la pantalla */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 15px;
+}
+
+.intro-title {
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+  line-height: 1.2;
+  text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+}
+
+@media (max-width: 768px) {
+  .intro-title {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .intro-title {
+    font-size: 1.6rem;
+  }
 }
