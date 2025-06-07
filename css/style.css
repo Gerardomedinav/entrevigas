@@ -2258,3 +2258,68 @@ h1.intro-title {
     font-size: 1.6rem;
   }
 }
+.intro-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #ffffff;
+  text-transform: uppercase;
+  line-height: 1.3;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.6);
+}
+
+.intro-title-top {
+  font-size: 1.8rem ! important;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 0.5rem;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+}
+
+@media (max-width: 1200px) {
+  .intro-title {
+    font-size: 2.2rem;
+  }
+  .intro-title-top {
+    font-size: 1.5rem !important;
+  }
+}
+
+@media (max-width: 992px) {
+  .intro-title {
+    font-size: 2rem;
+    margin-top: 2rem;
+  }
+  .intro-title-top {
+    font-size: 1.5rem;
+  }
+}
+
+
+
+@media (max-width: 768px) {
+  .intro-title {
+    font-size: 1.8rem;
+  }
+  .intro-title-top {
+    font-size: 1.0rem !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .intro-title {
+    font-size: 1.2rem;
+  }
+  .intro-title-top {
+    font-size: 1.0rem !important;
+  }
+}
+
+.intro-content {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  min-height: 100vh; /* Asegura que ocupe toda la altura de la pantalla */
+  text-align: center !important;
+}
